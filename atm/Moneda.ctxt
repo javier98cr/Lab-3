@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Moneda
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=
+comment2.target=double\ getCurrency()
+comment3.params=idM\ n\ ca\ fc
+comment3.target=void\ setData(int,\ java.lang.String,\ double,\ java.lang.String)
+numComments=4
