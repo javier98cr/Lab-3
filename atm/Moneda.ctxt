@@ -1,9 +1,11 @@
 #BlueJ class context
 comment0.target=Moneda
-comment1.params=
-comment1.target=java.lang.String\ getName()
+comment1.params=idM\ n\ ca\ fc
+comment1.target=Moneda(int,\ java.lang.String,\ double,\ java.lang.String)
 comment2.params=
-comment2.target=double\ getCurrency()
-comment3.params=idM\ n\ ca\ fc
-comment3.target=void\ setData(int,\ java.lang.String,\ double,\ java.lang.String)
-numComments=4
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=double\ getCurrency()
+comment4.params=idM\ n\ ca\ fc
+comment4.target=void\ setData(int,\ java.lang.String,\ double,\ java.lang.String)
+numComments=5
