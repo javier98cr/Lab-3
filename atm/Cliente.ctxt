@@ -1,11 +1,10 @@
 #BlueJ class context
-comment0.target=Cliente
-comment1.params=i\ n\ p\ s
-comment1.target=Cliente(int,\ java.lang.String,\ int,\ int)
-comment2.params=
-comment2.target=double\ deSaldo()
+comment0.params=i\ n\ p\ s
+comment0.target=Cliente(int,\ java.lang.String,\ int,\ int)
+comment1.params=
+comment1.target=double\ deSaldo()
+comment2.params=monto
+comment2.target=boolean\ retire(int)
 comment3.params=monto
-comment3.target=boolean\ retire(int)
-comment4.params=monto
-comment4.target=boolean\ deposite(int)
-numComments=5
+comment3.target=boolean\ deposite(int)
+numComments=4

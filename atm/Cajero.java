@@ -70,6 +70,30 @@ public class Cajero
         return true;
     }
     
+    
+    /* 
+     * Verifica que haya un monto mínimo en cada una de las cajas del cajero
+    */
+    public boolean verificarMontoCajero(int monto){
+        boolean resultado = true;
+        for(Caja caja : cajas){
+            if(resultado == true){
+               int sumaCajero = 0;
+               int []d = caja.getDenom();
+               int []cant = caja.getBalance();
+               for(int i = 0; i < d.length; i++){
+                   sumaCajero+= d[i] * cant[i]; 
+               }
+               
+               if(sumaCajero <  monto){
+                   resultado = false;
+               }
+            
+            }            
+        }
+        return resultado;
+    }
+    
     public int[] deCierreCaja(int i){
         return cajas.get(i-1).getBalance();
     }

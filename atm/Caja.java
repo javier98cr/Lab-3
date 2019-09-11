@@ -23,6 +23,8 @@ public class Caja
      * también actualiza el saldo de billetes en existencia
      */
     public int[] getBills(int monto){
+        int montoOrig = monto;
+        
         int[] r = new int[denom.length];
         for (int i = (denom.length - 1); i >= 0; i--){
             r[i] = 0;
@@ -50,8 +52,31 @@ public class Caja
             }
             r = null;
         }
+        
+        boolean desglose = verificarDesglose(r, montoOrig);
+        
+        if (desglose == false){
+            r = null;
+        }
+        
         return r;
     }
+    
+    public boolean verificarDesglose(int [] r, int monto){
+        int suma = 0;
+        for(int i = 0; i < r.length; i++){
+            if(r[i] != 0){
+                suma+= r[i] * denom[i];
+            }
+        }
+        
+        if(suma == monto){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    
     
     public void setBills(int monto){
         int[] r = new int[denom.length];

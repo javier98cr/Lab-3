@@ -1,9 +1,8 @@
 #BlueJ class context
-comment0.target=Transaccion
-comment1.params=
-comment1.target=Transaccion()
-comment2.params=denom\ m
-comment2.target=java.lang.String\ getData(int[],\ java.lang.String[])
-comment3.params=f\ c\ autor\ m\ b\ am
-comment3.target=void\ addTransac(java.lang.String,\ int,\ int,\ int,\ int[],\ int)
-numComments=4
+comment0.params=
+comment0.target=Transaccion()
+comment1.params=denom\ m
+comment1.target=java.lang.String\ getData(int[],\ java.lang.String[])
+comment2.params=f\ c\ autor\ m\ b\ am
+comment2.target=void\ addTransac(java.lang.String,\ int,\ int,\ int,\ int[],\ int)
+numComments=3

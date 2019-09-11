@@ -1,15 +1,17 @@
 #BlueJ class context
-comment0.target=Cajero
-comment1.params=f
-comment1.target=Cajero(java.lang.String)
+comment0.params=f
+comment0.target=Cajero(java.lang.String)
+comment1.params=
+comment1.target=void\ instancieClientes()
 comment2.params=
-comment2.target=void\ instancieClientes()
-comment3.params=
-comment3.target=void\ instancieCajas()
+comment2.target=void\ instancieCajas()
+comment3.params=monto\ pinC\ c
+comment3.target=boolean\ retiro(int,\ int,\ int)
 comment4.params=monto\ pinC\ c
-comment4.target=boolean\ retiro(int,\ int,\ int)
-comment5.params=monto\ pinC\ c
-comment5.target=boolean\ deposito(int,\ int,\ int)
+comment4.target=boolean\ deposito(int,\ int,\ int)
+comment5.params=monto
+comment5.target=boolean\ verificarMontoCajero(int)
+comment5.text=\ \r\n\ Verifica\ que\ haya\ un\ monto\ m\u00EDnimo\ en\ cada\ una\ de\ las\ cajas\ del\ cajero\r\n
 comment6.params=i
 comment6.target=int[]\ deCierreCaja(int)
 comment7.params=d\ c\ m

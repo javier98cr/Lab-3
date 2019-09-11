@@ -1,10 +1,11 @@
 #BlueJ class context
-comment0.target=Caja
-comment1.params=ident\ f\ d\ c\ m
-comment1.target=Caja(int,\ java.lang.String,\ int[],\ int[],\ Moneda)
-comment2.params=monto
-comment2.target=int[]\ getBills(int)
-comment2.text=retorna\ un\ vector\ con\ cantidad\ de\ billetes\ que\ sumen\ un\ monto\ dado.\r\n\ tambi\u00E9n\ actualiza\ el\ saldo\ de\ billetes\ en\ existencia\r\n
+comment0.params=ident\ f\ d\ c\ m
+comment0.target=Caja(int,\ java.lang.String,\ int[],\ int[],\ Moneda)
+comment1.params=monto
+comment1.target=int[]\ getBills(int)
+comment1.text=retorna\ un\ vector\ con\ cantidad\ de\ billetes\ que\ sumen\ un\ monto\ dado.\r\n\ tambi\u00E9n\ actualiza\ el\ saldo\ de\ billetes\ en\ existencia\r\n
+comment2.params=r\ monto
+comment2.target=boolean\ verificarDesglose(int[],\ int)
 comment3.params=monto
 comment3.target=void\ setBills(int)
 comment4.params=

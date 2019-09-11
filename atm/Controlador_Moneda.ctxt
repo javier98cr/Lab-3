@@ -1,5 +1,4 @@
 #BlueJ class context
-comment0.target=Controlador_Moneda
-comment1.params=ars
-comment1.target=void\ main(java.lang.String[])
-numComments=2
+comment0.params=ars
+comment0.target=void\ main(java.lang.String[])
+numComments=1
